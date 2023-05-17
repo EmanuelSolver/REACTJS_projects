@@ -1,3 +1,5 @@
+import './main.css'
+
 const obj = [{
     blogNames : 'Health',
     content : 'Everyone deserves a healthy living'
@@ -18,17 +20,16 @@ const obj = [{
 
 const Contentbody = ()=>{
     return(
-        <div style={{float:'left', width:"70%", padding: "35px"}}>
+        <div className="Content" style={{float:'left', width:"70%", padding: "35px"}}>
     
           {
             obj.map((item, index)=>{
                 return (
                     <>
-                
-                     <h3>{item.blogNames}</h3>
-                     <p>{item.content}. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias alias distinctio autem pariatur explicabo quisquam itaque dolores ipsam ullam, repellat, minus dolor culpa quos reprehenderit doloribus animi debitis assumenda incidunt!</p>
+                        <h3>{item.blogNames}</h3>
+                        <p>{item.content}.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias alias distinctio autem pariatur explicabo quisquam itaque dolores ipsam ullam, repellat, minus dolor culpa quos reprehenderit doloribus animi debitis assumenda incidunt!</p>
                     </>
-                   
+                      
                 ) 
             })
           }
