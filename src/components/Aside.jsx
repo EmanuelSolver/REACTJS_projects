@@ -1,3 +1,4 @@
+import './aside.css'
 const obj = [{
     blogNames : 'Health',
     content : 'Everyone deserves a healthy living'
@@ -18,7 +19,7 @@ const obj = [{
 
 const Aside =()=>{
     return(
-      <div style={{padding: "35px"}}>
+      <div className="aside" style={{padding: "35px"}}>
         <h2 style={{textAlign: "center"}}>Highlights</h2>
   
         {

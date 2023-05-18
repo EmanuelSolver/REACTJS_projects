@@ -1,0 +1,15 @@
+.Content{
+    background-color: rgb(248, 246, 244);
+ 
+}
+.Content p{
+    margin-bottom: 70px;
+    background-color: #f2e9e9;
+    color: rgb(2, 24, 123);
+}
+.Content h3{
+    color: #f47e7e;
+}
+.mainApp{
+    background-color: #651c70;
+}

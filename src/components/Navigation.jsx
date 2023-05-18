@@ -1,6 +1,16 @@
-
+import './Navigation.css'
 const Header = ()=>{
-    return <h2 style={{textAlign: "center"}}>Productivity and Its Boosters</h2>;
+    
+        return(
+            <div className="top">
+                <img src="./vite.svg" alt="" />
+                <h1 style={{textAlign: "center", color: "palevioletred"}}>Productivity Blog</h1>
+            </div>
+        
+
+        )
+
+    
   
 }
 

@@ -1,0 +1,10 @@
+.aside{
+    background-color: rgb(250, 251, 252);
+    height: 100%;
+    
+}
+.aside h4{
+    margin-bottom: 95px;
+    border-bottom: 5px solid #c07a7a;
+    color: rgb(70, 2, 134);
+}
